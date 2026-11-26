@@ -2,7 +2,6 @@
 const CODE128_PATTERN =  /^[\x20-\x7E]+$/;
 const MAX_LENGTH = 40;
 
-
 //pricks product's existing identifier. nothing is generated.
 //order = priority
 export function getProductIdentifier(product) {
